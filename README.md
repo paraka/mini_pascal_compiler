@@ -43,9 +43,14 @@
 
   Examples:
 
+  * VERBOSE:
+
 >  $ ./fpc2ILCompiler.exe examples/factorial.pas --verbose 
+>
 >  fpc2il Compiler v0.0.0.1: Mini Pascal to .NET Compiler
+>
 >  [ Sergio Paracuellos <sergio.paracuellos@gmail.com> ]
+>
 >  Compilation succeeded.
 
 >  *** TABLA DE SIMBOLOS ***
@@ -61,6 +66,8 @@
 >  Global (numero) Literal Falsetiene tipo :INT
 >
 >  ***********************
+
+  * DUMPAST:
 
 >  $ ./fpc2ILCompiler.exe examples/factorial.pas --dumpAST
 >
